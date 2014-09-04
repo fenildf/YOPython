@@ -52,7 +52,7 @@ class Application(tornado.web.Application):
             debug=True,
         )
         tornado.web.Application.__init__(self, handlers, **settings)
-        self.dbcn = torndb.Connection(database="mydatabase",user="lc1",password="123",host="127.0.0.1");
+        self.dbcn = torndb.Connection(database="mydatabase",user="root",password="841120",host="127.0.0.1");
 
 
 
